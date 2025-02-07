@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split , GridSearchCV
 from sklearn.metrics import classification_report, confusion_matrix, ConfusionMatrixDisplay, roc_auc_score, roc_curve
 
 def load_data():
-    data = pd.read_csv("spam.csv", encoding='ISO-8859-1')
+    data = pd.read_csv("spam-ham.csv", encoding='ISO-8859-1')
     data = data.drop(columns=['Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4'])
     data.columns = ['label' , 'text']
     y = data['label']
