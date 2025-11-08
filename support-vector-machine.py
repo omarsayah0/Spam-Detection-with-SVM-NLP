@@ -8,6 +8,12 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.svm import SVC
 from sklearn.model_selection import train_test_split , GridSearchCV
 from sklearn.metrics import classification_report, confusion_matrix, ConfusionMatrixDisplay, roc_auc_score, roc_curve
+import nltk
+
+try :
+    stopwords.words('english')
+except LookupError:
+    nltk.download('stopwords')
 
 def load_data():
     data = pd.read_csv("spam-ham.csv", encoding='ISO-8859-1')
