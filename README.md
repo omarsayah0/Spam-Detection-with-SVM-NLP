@@ -61,7 +61,7 @@ python support-vector-machine.py
 3- Model Evaluation :
 
 <p align="center">
-<img width="1585" height="617" alt="Capture_2025_11_08_17_41_08_411" src="https://github.com/user-attachments/assets/9ef068ac-ec38-43cb-bb2e-3ac6695dca17" />
+<img width="1860" height="718" alt="image" src="https://github.com/user-attachments/assets/852c496a-2975-487a-89b2-441ba8945dca" />
 </p>
 
 - The figure above shows three key evaluation metrics for the Support Vector Machine (SVM) classifier used in the spam detection task:
