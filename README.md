@@ -1,4 +1,4 @@
-# SMS Spam Detection using Support Vector Machine (SVM)
+# SpamGuard
 
 ## About
 This project implements a Support Vector Machine (SVM) classifier to distinguish between spam and ham (non spam) text messages.
